@@ -16,12 +16,43 @@
 .side-header {
   height: 100px;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name a {
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.chat-create {
+  font-size: 10px;
+}
+
+.chat-create a {
+  border: 1px solid lightblue;
+  color: deepskyblue;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .groups {
   height: calc(100vh - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.group {
+  padding: 20px 20px 40px;
+}
+
+.group-name a {
+  color: white;
+  text-decoration: none;
 }
 
 .main-header {
@@ -30,9 +61,9 @@
 }
 
 .main {
-  height: calc(100vh - 190px);
+  height: calc(100vh - 100px - 90px);
   background-color: #FAFAFA;
-  padding: 40px 40px 0;
+  padding: 46px 40px 0;
 }
 
 .form {
